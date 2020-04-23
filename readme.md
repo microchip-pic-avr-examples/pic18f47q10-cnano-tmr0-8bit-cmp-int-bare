@@ -28,7 +28,7 @@ This repository contains an example of bare-metal source code for TMR0 as descri
 ## Setup
 The PIC18F47Q10 Curiosity Nano Development Board is used as the test platform.
 
-<br><img src="images/PIC18F47Q10_CNANO.png" width="500">
+<br><img src="images/PIC18F47Q10_CNANO.png" width="600">
 
 The following configurations must be made for this project:
 - Clock
@@ -58,16 +58,16 @@ The following configurations must be made for this project:
 2. Open the *pic18f47q10-cnano-tmr0-clk-out-bare.X* solution in MPLAB X IDE.
 
 3. Set *pic18f47q10-cnano-tmr0-clk-out-bare* project as main project. Right click on the project in the *Projects* tab and click *Set as Main Project*:
-<br><img src="images/TMR0-8bit-cmp-int-bare-main-project.png" width="500">
+<br><img src="images/TMR0-8bit-cmp-int-bare-main-project.png" width="600">
 
 4. Select the *PIC18F47Q10 Curiosity Nano* in the *Hardware Tool* section of the project settings:
   - Right click on the project and click *Properties*;
   - Select the *PIC18F47Q10 Curiosity Nano* (click on the SN) in the *Hardware Tool* tab and then click *OK*:
-<br><img src="images/TMR0-8bit-cmp-int-bare-tool-settings.png" width="500">
+<br><img src="images/TMR0-8bit-cmp-int-bare-tool-settings.png" width="600">
 
 
 5. Program the project to the board: right click on the project and click *Make and Program Device*:
-<br><img src="images/TMR0-8bit-cmp-int-bare-program.png" width="500">
+<br><img src="images/TMR0-8bit-cmp-int-bare-program.png" width="600">
 
 Demo:
 <br><img src="images/TMR0_8bit_cmp_int.gif">
