@@ -8,6 +8,7 @@
 This repository contains an example of bare-metal source code for TMR0 as described in [*TBxxxx - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/) document from Microchip.
 
 This example describes how to configure Timer0 in 8-bit mode and to generate a compare interrupt every 100 ms using LFINTOSC as clock source.
+
 A GPIO pin (the development board’s on-board LED) will be configured as output and toggled each time the interrupt occurs. Additionally, the main clock will use a separate clock source (HFINTOSC) and Timer0 will run asynchronously from the main clock.
 
 ## Related Documentation
