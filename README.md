@@ -45,6 +45,7 @@ The following configurations must be made for this project:
 	- Timer period: 100 ms
 	- Timer interrupt: enabled
 - Watchdog Timer: disabled
+- Low-voltage Programming: enabled
 
 |Pin           | Configuration      |
 | :----------: | :----------------: |
