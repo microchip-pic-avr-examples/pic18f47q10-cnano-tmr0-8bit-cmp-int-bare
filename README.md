@@ -5,14 +5,14 @@
 # PIC18F47Q10 Using TMR0 in 8-bit Mode with Periodic Interrupt
 
 ## Objective
-This repository contains an example of bare-metal source code for TMR0 as described in [*TBxxxx - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/) document from Microchip.
+This repository contains an example of bare-metal source code for TMR0 as described in [*TB3285 - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003329) document from Microchip.
 
 <br>This example describes how to configure Timer0 in 8-bit mode and to generate a compare interrupt every 100 ms using LFINTOSC as clock source.
 <br>A GPIO pin (the development board’s on-board LED) will be configured as output and toggled each time the interrupt occurs.
 <br>Additionally, the main clock will use a separate clock source (HFINTOSC) and Timer0 will run asynchronously from the main clock.
 
 ## Related Documentation
-- [TBxxxx - Getting Started with Timers/Counters on PIC18](http://www.microchip.com/)
+- [TB3285 - Getting Started with Timers/Counters on PIC18](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003329)
 - [PIC18-Q10 Product Family Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family)
 - [PIC18F47Q10 Data Sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf)
 - [PIC18F47Q10 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=pic18f47q10-cnano&type=&language=)
