@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-tmr0-8bit-cmp-int-bare",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Using TMR0 in 8-bit Mode with Periodic Interrupt",
         "projectName": "pic18f47q10-cnano-tmr0-8bit-cmp-int-bare",
         "shortDescription": "This example describes how to configure Timer0 in 8-bit mode and to generate a compare interrupt every 100 ms using LFINTOSC as clock source.",
@@ -38,21 +38,17 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "Peripherals",
             [
-               "Peripherals", "TIMER", "TMR0"
+               "Peripherals",
+			   "TMR0"
             ]            			
         ],
         "peripherals": [
-            "TIMER","TMR0"
+            "TMR0"
         ],
         "keywords": [
             "Getting Started",
-	        "Timers/Counters",
-            "Timer/Counter",
-			"Compare",
-	        "Interrupts",
-			"Periodic"
+	        "Timers/Counters"
         ],
 		"additionalData": {
 			"longDescription": {
